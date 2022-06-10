@@ -11,7 +11,7 @@ func Cekganjilgenapv1(d int) {
 	}
 }
 
-func cekganjilgenapv2(numbs ...int) {
+func Cekganjilgenapv2(numbs ...int) {
     for _, number := range numbs {
         if number % 2 == 0 {
             fmt.Print("genap ")
